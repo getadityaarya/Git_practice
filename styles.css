@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    text-align: center;
+    text-align: center; padding-top: 30px;
+}
+p{
+    font-size: 20px;
+    width: 600px; 
+    height: auto; 
+    padding: 10px; 
+    margin: auto;
+    border: 2px solid black;
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+}
+
+.styled-list {
+  color: coral;       
+  font-size: 20px;    
+}
+
+.styled-list li {
+  margin-bottom: 10px; 
+}
