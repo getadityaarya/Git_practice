@@ -1,0 +1,125 @@
+.page-header{
+    text-align: center;
+    padding: 10px;
+
+}
+body{
+    background-color:  antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blog-container {
+    max-width: 1200px;
+    margin: 50px  auto;
+    padding: 0 20px;
+    display:grid ;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.blog-card {
+    width: 400px;
+    background: #FEEAC9;
+    border: black solid;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px #888888;
+    transition: transform 0.3s ease;
+    margin: 50px;
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.blog-card h2{
+    text-align: center;
+    color: darkslategrey;
+    margin: 20px 0 10px;
+}
+.blog-card p{
+    font-size: 15px;
+    text-align: center;
+    color:darkgreen;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    line-height: 1.6;
+}
+
+.blog-card .date{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+}
+
+.web-footer {
+    text-align: center;
+    padding: 30px 0;
+}
+.navbar{
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.navbar a:hover {
+    background-color: #f2f2f2;
+}
+
+form {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0078ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #005fcc;
+}
