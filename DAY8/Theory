@@ -1,1 +1,97 @@
+1. What is Asynchronous Programming?
+Ans- Asynchronous programming allows JavaScript to perform time-consuming tasks (like fetching data from a server) without stopping the rest of the program.
+This ensures that the webpage remains responsive and does not freeze while waiting for data.
 
+2. Why JavaScript Needs Asynchronous Behavior?
+Ans- JavaScript is single-threaded, meaning it executes one task at a time.
+Asynchronous behavior helps JavaScript handle:
+    a). API requests
+    b). Timers and delays
+    c). Data loading from backend
+    d).User interactions
+- Without asynchronous handling, the browser would stop responding during slow operations.
+
+3. setTimeout (Delay Mechanism): 
+Ans- setTimeout is used to execute a task after a specific delay.
+The delay is measured in milliseconds.
+Key points:
+    a). The code does not stop execution
+    b). Other tasks continue running
+    c). Used for delays, animations, notifications, and loaders
+
+4. Promises in JavaScript:
+Ans- A Promise represents a task that will be completed in the future.
+It is mainly used to handle asynchronous operations.
+Promise States:
+    a. Pending – task is in progress
+    b. Fulfilled – task completed successfully
+    c. Rejected – task failed
+- Promises help manage success and failure in a structured way.
+
+5. Handling Promises: 
+Ans. romises are handled using:
+    then – runs when the task is successful
+    catch – runs when an error occurs
+- This separation makes error handling clean and readable.
+
+6. Async and Await:
+Ans- async and await provide a simpler and cleaner way to work with Promises.
+Key ideas:
+    a). async marks a function as asynchronous
+    b). await pauses execution until the task completes
+    c). The browser continues working in the background
+    d). Async/await improves readability and avoids complex chaining.
+
+7. Error Handling in Asynchronous Code:
+Errors in asynchronous operations must be handled properly to prevent crashes.
+Using structured error handling:
+    a). Keeps the application stable
+    b). Helps identify problems easily
+    c). Improves debugging and user experience
+
+8. Fetching Data from a Server:
+Ans. Fetching data means requesting information from an external source (API).
+This process is asynchronous because network requests take time.
+Important points:
+    a). Data arrives after some delay
+    b). The program continues running meanwhile
+    c). Commonly used to load user data, products, posts, etc.
+
+9. Loading Indicators:
+Ans. While data is being fetched, applications often show:
+    a). Loading messages
+    b). Spinners or progress indicators
+    c). This improves user experience by informing users that the system is working.
+
+10. Event-Driven Asynchronous Actions:
+Ans- Asynchronous functions are often triggered by:
+a). Button clicks
+b). User actions
+c). Page events
+-This allows users to control when data is loaded.
+
+11. Displaying Fetched Data on Webpages
+Ans- After data is received from a server, it must be:
+    a). Processed    
+    b). Displayed on the webpage
+    c). This is done using dynamic content updates, which is a key part of modern web applications.
+
+12. Local Storage in the Browser
+Ans- Local Storage is used to store data inside the browser.
+Key characteristics:
+    a). Data remains even after page refresh
+    b). Used for saving user data, preferences, or API responses
+    c). Stores data in text format
+
+13. Promise vs Async/Await
+Ans- Both Promises and async/await achieve the same goal.
+Difference:
+    a). Promises use chaining
+    b). Async/await offers better readability
+    c).Async/await is preferred for large and complex applications.
+
+14. Advantages of Asynchronous Programming
+Ans- Keeps the webpage responsive
+    a). Handles slow operations efficiently
+    b). Improves user experience
+    c). Makes applications scalable and reliable
