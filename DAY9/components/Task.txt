@@ -1,0 +1,47 @@
+✅ Task 1: Render a List Using Bootstrap (Easy Win)
+🎯 Objective
+Learn how to render a list using map() and Bootstrap list-group.
+📝 Task
+Create an array of 3–5 student names
+Display them using Bootstrap list-group
+Each name should appear as a list item
+🔧 Rules
+Use map()
+Use list-group and list-group-item
+No conditional rendering here
+👉 Example output idea:
+
+• Rahul
+• Anita
+• Sohail
+✅ Task 2: Conditional Rendering (Show / Hide Message)
+🎯 Objective
+Understand conditional rendering using a boolean value.
+📝 Task
+Create a variable isLoggedIn
+If isLoggedIn is true, show:Welcome User
+If false, show:Please Login
+🔧 Rules
+Use ternary operator
+No buttons yet (keep it simple)
+👉 Example logic:
+
+isLoggedIn ? "Welcome User" : "Please Login"
+✅ Task 3: Conditional Styling in List Group
+🎯 Objective
+Combine list rendering + conditional rendering.
+📝 Task
+Create an array of students with name and isPresent
+Display students in a Bootstrap list group
+If student is present → green list item
+If absent → red list item
+🔧 Rules
+Use map()
+Use conditional class:
+list-group-item-success
+list-group-item-danger
+👉 Output idea:
+
+Rahul  (green)
+Anita  (red)
+Sohail (green)
